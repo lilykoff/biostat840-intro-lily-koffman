@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Lily's Website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - href: ex_analysis.qmd
+        text: Data Analysis
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
